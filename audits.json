@@ -1,0 +1,190 @@
+[
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Proper folder structure",
+        "status": "Pass",
+        "severity": "Medium",
+        "remark": "No input validation detected"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Readable and clean code",
+        "status": "Pass",
+        "severity": "Medium",
+        "remark": "Good"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Meaningful variable names",
+        "status": "Pass",
+        "severity": "Low",
+        "remark": "Good"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "Input validation implemented",
+        "status": "Pass",
+        "severity": "Low",
+        "remark": "Good"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "Authentication present",
+        "status": "Pass",
+        "severity": "High",
+        "remark": "Good"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "No hardcoded secrets",
+        "status": "Pass",
+        "severity": "Low",
+        "remark": "Good"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Proper folder structure",
+        "status": "Partial",
+        "severity": "Medium",
+        "remark": "Some files misplaced"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Readable and clean code",
+        "status": "Partial",
+        "severity": "Medium",
+        "remark": "Name is clear"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Meaningful variable names",
+        "status": "Pass",
+        "severity": "Low",
+        "remark": "Name is clear"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Proper folder structure",
+        "status": "Partial",
+        "severity": "Medium",
+        "remark": "Some files misplaced"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Readable and clean code",
+        "status": "Partial",
+        "severity": "Medium",
+        "remark": "Code readable"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Meaningful variable names",
+        "status": "Pass",
+        "severity": "Low",
+        "remark": "Naming is clear"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "Input validation implemented",
+        "status": "Fail",
+        "severity": "High",
+        "remark": "No validation found"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "Authentication present",
+        "status": "Fail",
+        "severity": "High",
+        "remark": "Authentication missing"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "No hardcoded secrets",
+        "status": "Pass",
+        "severity": "Medium",
+        "remark": "embedding API keys"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Proper folder structure",
+        "status": "Partial",
+        "severity": "Medium",
+        "remark": "Some files misplaced"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Readable and clean code",
+        "status": "Partial",
+        "severity": "Medium",
+        "remark": "Code is readable"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Code Quality",
+        "checkpoint": "Meaningful variable names",
+        "status": "Pass",
+        "severity": "Low",
+        "remark": "Naming is clear"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "Input validation implemented",
+        "status": "Fail",
+        "severity": "High",
+        "remark": "No validation found"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "Authentication present",
+        "status": "Fail",
+        "severity": "High",
+        "remark": "Authentication missing"
+    },
+    {
+        "project_id": "20260125014847",
+        "category": "Security",
+        "checkpoint": "No hardcoded secrets",
+        "status": "Pass",
+        "severity": "Medium",
+        "remark": "Embedding API Key"
+    },
+    {
+        "project_id": "20260202014211",
+        "project_name": "Inventory Management",
+        "category": "Code Quality",
+        "checkpoint": "Proper folder structure",
+        "status": "Partial",
+        "severity": "Medium",
+        "remark": "Folder structure exists but lacks separation\n",
+        "date": "2026-02-02 01:43:34.409499"
+    },
+    {
+        "project_id": "20260202014211",
+        "project_name": "Inventory Management",
+        "category": "Security",
+        "checkpoint": "Input validation implemented",
+        "status": "Fail",
+        "severity": "High",
+        "remark": "User inputs are not validated\n",
+        "date": "2026-02-02 01:44:22.604376"
+    }
+]

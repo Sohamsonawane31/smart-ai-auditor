@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit Cache
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated Reports
+generated_reports/
+reports/generated/
+
+# Local Database (ignore only if using SQLite later)
+*.sqlite
+*.sqlite3
+
+# Output files
+Output/
