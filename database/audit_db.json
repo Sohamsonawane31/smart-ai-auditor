@@ -53,6 +53,15 @@
             "status": "Active",
             "created_at": "2026-07-06T16:09:30.246957+00:00",
             "updated_at": "2026-07-06T16:09:30.246979+00:00"
+        },
+        "7": {
+            "id": "aafd580b-f10c-452f-8d52-08cf99760990",
+            "name": "Demo Project",
+            "client": "Contoso",
+            "tech": "Python",
+            "status": "Active",
+            "created_at": "2026-07-07T13:08:34.110117+00:00",
+            "updated_at": "2026-07-07T13:08:34.110127+00:00"
         }
     },
     "audits": {
@@ -380,6 +389,33 @@
             "score": 100,
             "date": "2026-07-06T16:09:30.249790+00:00",
             "created_at": "2026-07-06T16:09:30.249807+00:00"
+        },
+        "26": {
+            "id": "66c6e238-caa4-47eb-b099-592a18da7420",
+            "project_id": "aafd580b-f10c-452f-8d52-08cf99760990",
+            "project_name": "Demo Project",
+            "category": "Security",
+            "checkpoint": "Authentication present",
+            "status": "Fail",
+            "severity": "High",
+            "remark": "Demo",
+            "score": 20,
+            "date": "2026-07-07T13:08:34.112291+00:00",
+            "created_at": "2026-07-07T13:08:34.112299+00:00"
+        },
+        "27": {
+            "id": "05eddddb-5201-4228-87b6-48dec22a3d02",
+            "project_id": "demo",
+            "project_name": "Demo Project",
+            "category": "Security",
+            "checkpoint": "Authentication present",
+            "status": "Fail",
+            "severity": "High",
+            "remark": "Test report",
+            "auditor": "Test Auditor",
+            "score": 20,
+            "date": "2026-07-07T13:30:09.261576+00:00",
+            "created_at": "2026-07-07T13:30:09.261590+00:00"
         }
     },
     "settings": {
@@ -387,6 +423,40 @@
             "name": "migration",
             "completed": true,
             "migrated_at": "2026-07-06T15:01:50.025118+00:00"
+        }
+    },
+    "users": {
+        "1": {
+            "id": "0e65f2f7-8fc6-441f-8088-4c56a1c35d98",
+            "username": "admin",
+            "password_hash": "pbkdf2_sha256$200000$iy08rOz9OXwVqcjZtDDSNQ==$92ivL9Zs2y5vLfaOqGgHfWAtT0wD7NB2oTLyex9YskA=",
+            "role": "Admin",
+            "created_at": "2026-07-07T13:08:33.958923+00:00"
+        },
+        "2": {
+            "id": "0afabe45-ea89-4219-a802-5d9351c01092",
+            "username": "auditor",
+            "password_hash": "pbkdf2_sha256$200000$JHaVsfWylZH7VYq4hmUROQ==$kuiom8lQixxx+s9TqA4s/puGivd/BkBAy3nzOnMbBC0=",
+            "role": "Auditor",
+            "created_at": "2026-07-07T13:08:34.009324+00:00"
+        },
+        "3": {
+            "id": "8efc77d0-d0c6-415e-82a4-b427e610eb6e",
+            "full_name": "Test User",
+            "username": "testuser",
+            "email": "test@example.com",
+            "password_hash": "pbkdf2_sha256$200000$PKBAp0bMmL/lG7jIzFvhNw==$mgHTQxTuOCF3xMRhBrHFKEnqvIAU6VBbGYY+cjXxXYY=",
+            "role": "Auditor",
+            "created_at": "2026-07-07T13:20:11.554423+00:00"
+        },
+        "4": {
+            "id": "3a247440-937f-44c6-8668-07f0833a14e0",
+            "full_name": "Soham Sonawane",
+            "username": "soham31",
+            "email": "sai.sonawane7625@gmail.com",
+            "password_hash": "pbkdf2_sha256$200000$c6zq8jM8CJ4V3zZ4WLYVFA==$aefpnmUsWT0J0iHdVSpxpL6k9reguXEEoo9vs51aTiI=",
+            "role": "Auditor",
+            "created_at": "2026-07-07T13:21:47.607827+00:00"
         }
     }
 }
