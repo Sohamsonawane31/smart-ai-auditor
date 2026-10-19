@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-ai-auditor"
+version = "2.0.0"
+description = "Deterministic & AI-Powered Software Architecture & Security Auditor"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Soham Sonawane" }
+]
+dependencies = [
+    "openpyxl>=3.1.2",
+    "reportlab>=4.0.0",
+    "pyyaml>=6.0.1",
+    "requests>=2.31.0",
+    "pytest>=7.4.0",
+]
+
+[project.scripts]
+ai-audit = "ai_project_auditor.cli.args:run_cli"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
