@@ -43,6 +43,28 @@ alongside it. See [architecture](docs/architecture.md).
 - Optional local management of projects, run status/recovery, report imports,
   immutable finding snapshots, manual assessments, and corrective actions.
 
+## Application screenshot
+
+The optional local management UI provides Dashboard, Projects, Run audit,
+Assessments, Reports, Findings & actions, and History views.
+
+![Smart AI Auditor management dashboard](docs/images/management-dashboard.png)
+
+This dashboard screenshot contains no client records or audit findings.
+
+## Public sample reports
+
+The following synthetic, non-client sample report demonstrates the output
+contract in each supported format:
+
+- [JSON](reports/samples/smart-ai-auditor-demo_audit_report.json)
+- [Markdown](reports/samples/smart-ai-auditor-demo_audit_report.md)
+- [Excel](reports/samples/smart-ai-auditor-demo_audit_report.xlsx)
+- [PDF](reports/samples/smart-ai-auditor-demo_audit_report.pdf)
+
+See [reports/README.md](reports/README.md) for generation and publication
+policy. Local audit reports and management data remain ignored by Git.
+
 ## Requirements and installation (Windows)
 
 Python 3.10 or newer is required. The current environment has been verified on

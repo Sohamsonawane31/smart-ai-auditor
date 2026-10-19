@@ -1,0 +1,144 @@
+{
+  "project_name": "smart-ai-auditor-demo",
+  "project_path": "examples/synthetic-demo",
+  "technology_profile": {
+    "python": true,
+    "javascript": false,
+    "typescript": false,
+    "java": false,
+    "fastapi": false,
+    "flask": false,
+    "django": false,
+    "react": false,
+    "nextjs": false,
+    "react_native": false,
+    "nodejs": false,
+    "sql": false,
+    "docker": false,
+    "github_actions": false,
+    "machine_learning": false,
+    "pytorch": false,
+    "tensorflow": false,
+    "opencv": false,
+    "llm": false,
+    "rag": false,
+    "embeddings": false,
+    "vector_databases": false,
+    "agents": false,
+    "tool_calling": false,
+    "primary_language": "Python",
+    "detected_frameworks": [],
+    "has_api": false,
+    "has_ai": false,
+    "has_rag_or_agents": false
+  },
+  "file_extension_breakdown": {
+    ".py": 1,
+    ".txt": 1
+  },
+  "statistics": {
+    "total_files": 3,
+    "scanned_files": 3,
+    "skipped_files": 0,
+    "total_lines_of_code": 42,
+    "duration_seconds": 0.12,
+    "timestamp": "2026-10-20 00:00:00"
+  },
+  "risk_summary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 1,
+    "info": 0,
+    "total": 1,
+    "risk_score": 1,
+    "risk_level": "Minimal",
+    "category_breakdown": {
+      "Dependencies": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 0,
+        "Low": 1,
+        "Info": 0
+      }
+    }
+  },
+  "check_results": [
+    {
+      "check_id": "DEP-003",
+      "category": "Dependencies",
+      "check_name": "Pinned dependencies",
+      "severity": "Low",
+      "method": "Static",
+      "status": "FAIL",
+      "finding_ids": [
+        "DEMO-DEP-001"
+      ],
+      "notes": "Synthetic demonstration finding."
+    },
+    {
+      "check_id": "SEC-004",
+      "category": "Security",
+      "check_name": "Dynamic code execution",
+      "severity": "High",
+      "method": "Static",
+      "status": "PASS",
+      "finding_ids": [],
+      "notes": "Synthetic demonstration check passed."
+    },
+    {
+      "check_id": "AI-002",
+      "category": "AI/LLM",
+      "check_name": "Prompt injection controls",
+      "severity": "High",
+      "method": "LLM",
+      "status": "SKIPPED",
+      "finding_ids": [],
+      "notes": "Not applicable to the synthetic example."
+    }
+  ],
+  "executed_check_ids": [
+    "DEP-003",
+    "SEC-004"
+  ],
+  "skipped_check_ids": [
+    "AI-002"
+  ],
+  "scanners_used": [
+    "Synthetic public example; no repository was scanned."
+  ],
+  "audit_limitations": [
+    "This is a documentation asset, not a real audit."
+  ],
+  "audit_source": "Synthetic public example",
+  "llm_provider_used": null,
+  "llm_model": null,
+  "llm_checks_attempted": 0,
+  "llm_checks_succeeded": 0,
+  "llm_checks_failed": 0,
+  "llm_findings_created": 0,
+  "llm_findings_enriched": 0,
+  "llm_findings_rejected": 0,
+  "checklist_version": "demo-checklist",
+  "findings": [
+    {
+      "finding_id": "DEMO-DEP-001",
+      "check_id": "DEP-003",
+      "title": "Unpinned Dependency (demonstration)",
+      "category": "Dependencies",
+      "severity": "Low",
+      "confidence": "High",
+      "file": "requirements.txt",
+      "line": 1,
+      "evidence": "example-library",
+      "description": "This synthetic example shows how an unpinned dependency is reported.",
+      "impact": "Version drift can make builds less reproducible.",
+      "recommendation": "Pin a reviewed compatible version and refresh it through normal dependency maintenance.",
+      "ai_remediation": "Add a reviewed version constraint, test the update, and document the upgrade cadence.",
+      "technology": "Python",
+      "detection_method": "Static",
+      "verified": true,
+      "metadata": {}
+    }
+  ]
+}

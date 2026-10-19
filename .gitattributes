@@ -1,0 +1,5 @@
+# Generated public demonstration assets should not be text-normalized.
+*.pdf binary
+*.png binary
+*.xlsx binary
+reports/samples/*.md whitespace=-trailing-space

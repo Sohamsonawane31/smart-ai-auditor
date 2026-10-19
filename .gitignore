@@ -21,7 +21,10 @@ __pycache__/
 Thumbs.db
 
 # Generated reports and private management data
-reports/
+reports/*
+!reports/README.md
+!reports/samples/
+!reports/samples/**
 management_data/
 verification_outputs/*
 !verification_outputs/README.md
