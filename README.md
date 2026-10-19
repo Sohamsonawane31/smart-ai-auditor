@@ -163,9 +163,11 @@ authorized credentials and are not run automatically.
 - External LLM availability and provider policy are outside this project's
   control.
 
-Read the focused guides for the [audit engine](ai_project_auditor/README.md),
-[management service](ai_project_auditor/management/README.md), and publishing
-and operational details in [troubleshooting](docs/troubleshooting.md) and
+Read the focused component guides for [Smart AI Auditor](smart-auditor/README.md)
+and [Audit Management System](management-system/README.md). Implementation
+references are in the [audit engine](ai_project_auditor/README.md) and
+[management service](ai_project_auditor/management/README.md) guides; publishing
+and operational details are in [troubleshooting](docs/troubleshooting.md) and
 [security](docs/security.md).
 
 ## License
